@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../assets/images/logo-DH.png';
+import image from '../assets/images/logo-sicera-sin-fondo.png';
 import ContentWrapper from './ContentWrapper';
 import GenresInDb from './GenresInDb';
 import LastItemInDb from './LastItemInDb';
@@ -38,12 +38,12 @@ function SideBar(){
                 <div className="sidebar-heading">Actions</div>
 
                 {/*<!-- Nav Item - Pages -->*/}
-                <li className="nav-item">
+                {/* <li className="nav-item">
                 <Link className="nav-link" to="/GenresInDb">
                         <i className="fas fa-fw fa-folder"></i>
                         <span>Marcas</span>
                     </Link>
-                </li>
+                </li> */}
 
                 {/*<!-- Nav Item - Charts -->*/}
                 <li className="nav-item">
